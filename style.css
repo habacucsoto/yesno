@@ -1,0 +1,34 @@
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+.container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #cccccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: #ffffff; /* Texto blanco */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo verde más oscuro al pasar el ratón */
+}

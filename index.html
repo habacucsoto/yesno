@@ -6,25 +6,28 @@
     <title>YesNo API</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
     <script src="callrestapi.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Consumo de REST/API YesNo</p>
+    <div class="container">
+        <h1>Consumo de REST/API YesNo</h1>
 
-    <div>
-        <label>Respuesta (Yes o No)</label>
-        <input type="text" id="response">
+        <div>
+            <label>Respuesta (Yes o No)</label>
+            <input type="text" id="response">
+        </div>
+        <br>
+        <div>
+            <label>Gif link</label>
+            <input type="text" id="gif">
+        </div>
+        <br>
+        <button onclick="postResponse()">POST response</button>
+
+        <button onclick="getResponse()">GET response</button>
+
+        <div id="resultado"></div>
     </div>
-    <div>
-        <label>Gif link</label>
-        <input type="text" id="gif">
-    </div>
-
-    <button onclick="postResponse()">POST response</button>
-
-    <button onclick="getResponse()">GET response</button>
-
-    <div id="resultado"></div>
-
     <script src=""></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-const url = "http://34.127.94.67:8080/api/response";
+const url = "https://instant-gecko-417716.uc.r.appspot.com/api/response";
 
 function postResponse() {
     console.log(url);
